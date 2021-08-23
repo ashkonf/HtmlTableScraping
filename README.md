@@ -3,7 +3,6 @@ A simple module that turns HTML tables into Pandas DataFrames.
 ## Contents
   - [Overview](#Overview)
   - [Setup](#Setup)
-    - [Dependencies](#Dependencies)
   - [License](#license)
   - [Usage](#Usage)
 
