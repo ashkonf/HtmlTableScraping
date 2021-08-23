@@ -3,11 +3,27 @@ A simple module that turns HTML tables into Pandas DataFrames.
 ## Contents
   - [Overview](#Overview)
   - [Setup](#Setup)
-    - [Installation](#Installation)
-    - [API Authentication](#API-Authentication)
     - [Dependencies](#Dependencies)
   - [License](#license)
   - [Usage](#Usage)
+
+## Setup
+
+### Dependencies
+
+This library relies on the following Python libraries:
+ - bs4
+ - pandas
+ - ipython
+ - ipython-genutils
+
+These are enumerated in `requirements.txt`. Install them using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
 
 ```
 >>> import requests
