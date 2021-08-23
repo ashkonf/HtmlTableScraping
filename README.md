@@ -5,6 +5,7 @@ A simple module that turns HTML tables into Pandas DataFrames.
 >>> import requests
 >>> from bs4 import BeautifulSoup
 >>> from scraper import parse_table
+>>>
 >>> html = requests.get("https://en.wikipedia.org/wiki/S%26P_500").text
 >>> soup = BeautifulSoup(html, "lxml")
 >>> table = soup.find_all("table")[1]
