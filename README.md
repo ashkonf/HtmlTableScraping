@@ -9,6 +9,10 @@ A simple module that turns HTML tables into Pandas DataFrames.
 
 ## Setup
 
+### Installation
+
+Simply include the `scraper.py` file in your project and use away! Just make sure to install its dependencies first, as described below.
+
 ### Dependencies
 
 This library relies on the following Python libraries:
@@ -24,6 +28,9 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
+The `scraper` module exports one public function: `parse_table(table)`. This function accepts a single `table` argument as input, which should be a BeautifulSoup element of type table. It sill return a `Pandas` `DataFrame` containing the table's contents.
+### Example Usage
 
 ```
 >>> import requests
