@@ -25,6 +25,11 @@ These are enumerated in `requirements.txt`. Install them using pip:
 pip install -r requirements.txt
 ```
 
+## License
+
+`HtmlTableScraping` is licensed under the
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
 ## Usage
 
 The `scraper` module exports one public function: `parse_table(table)`. This function accepts a single `table` argument as input, which should be a `BeautifulSoup` `Tag` of type `table`. It sill return a `Pandas` `DataFrame` containing the table's contents.
