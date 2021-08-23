@@ -13,11 +13,12 @@ A simple module that turns HTML tables into Pandas DataFrames.
 >>> import requests
 >>> from bs4 import BeautifulSoup
 >>> from scraper import parse_table
->>>
+
 >>> html = requests.get("https://en.wikipedia.org/wiki/S%26P_500").text
 >>> soup = BeautifulSoup(html, "lxml")
 >>> table = soup.find_all("table")[1]
 >>> parse_table(table)
+
       Year  Change in Index  Total Annual Return Including Dividends  ...  15 Year Annualized Return  20 Year Annualized Return  25 Year Annualized Return
 0     1970            0.10%                                    4.01%  ...                          -                          -                          -
 1     1971           10.79%                                   14.31%  ...                          -                          -                          -
