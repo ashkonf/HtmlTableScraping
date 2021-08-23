@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-The `scraper` module exports one public function: `parse_table(table)`. This function accepts a single `table` argument as input, which should be a BeautifulSoup element of type table. It sill return a `Pandas` `DataFrame` containing the table's contents.
+The `scraper` module exports one public function: `parse_table(table)`. This function accepts a single `table` argument as input, which should be a `BeautifulSoup` `Tag` of type `table`. It sill return a `Pandas` `DataFrame` containing the table's contents.
 ### Example Usage
 
 ```
