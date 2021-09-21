@@ -1,5 +1,5 @@
 # HtmlTableScraping
-A simple module that turns HTML tables into Pandas DataFrames.
+A simple module that turns HTML tables into Pandas `DataFrames`.
 ## Contents
   - [Setup](#Setup)
   - [License](#license)
